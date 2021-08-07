@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e6ab255d6880c5bbcbb417ff0ab83b84",
+    "content-hash": "d1d07bce2c7e987f80d30c67d19face9",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1136,16 +1136,16 @@
         },
         {
             "name": "laravel/laravel",
-            "version": "v5.7.0",
+            "version": "v5.7.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/laravel.git",
-                "reference": "b0651d2467f1428eadc505e1b3b4f5678611927c"
+                "reference": "2a1f3761e89df690190e9f50a6b4ac5ebb8b35a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/laravel/zipball/b0651d2467f1428eadc505e1b3b4f5678611927c",
-                "reference": "b0651d2467f1428eadc505e1b3b4f5678611927c",
+                "url": "https://api.github.com/repos/laravel/laravel/zipball/2a1f3761e89df690190e9f50a6b4ac5ebb8b35a3",
+                "reference": "2a1f3761e89df690190e9f50a6b4ac5ebb8b35a3",
                 "shasum": ""
             },
             "require": {
@@ -1169,13 +1169,13 @@
                 }
             },
             "autoload": {
+                "psr-4": {
+                    "App\\": "app/"
+                },
                 "classmap": [
                     "database/seeds",
                     "database/factories"
-                ],
-                "psr-4": {
-                    "App\\": "app/"
-                }
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1187,9 +1187,9 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravel/laravel/tree/develop"
+                "source": "https://github.com/laravel/laravel/tree/master"
             },
-            "time": "2018-09-04T13:12:22+00:00"
+            "time": "2019-02-05T17:46:48+00:00"
         },
         {
             "name": "laravel/nexmo-notification-channel",
