@@ -7,14 +7,16 @@
         }
     ],
     "require": {
-        "php": ">=5.5",
-        "joeforshaw/speckl": "dev-main"
+        "php": "^7.1.3",
+        "joeforshaw/speckl": "dev-main",
+        "laravel/laravel": "5.7",
+        "phpunit/phpunit": "^7.0",
+        "mockery/mockery": "^1.0"
     },
-    "bin": ["bin/speckl"],
     "autoload": {
         "psr-4": {
             "Speckl\\": "src/Speckl"
         },
-        "files": ["src/Functions.php"]
+        "files": ["src/Config.php"]
     }
 }
