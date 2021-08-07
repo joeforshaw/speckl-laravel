@@ -1,0 +1,20 @@
+{
+    "name": "joeforshaw/speckl-laravel",
+    "authors": [
+        {
+            "name": "Joe Forshaw",
+            "email": "joe@joeforshaw.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "joeforshaw/speckl": "dev-main"
+    },
+    "bin": ["bin/speckl"],
+    "autoload": {
+        "psr-4": {
+            "Speckl\\": "src/Speckl"
+        },
+        "files": ["src/Functions.php"]
+    }
+}

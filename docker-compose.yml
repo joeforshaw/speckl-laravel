@@ -1,0 +1,11 @@
+version: '3.5'
+services:
+    test:
+        image: php:5.5.30
+        volumes:
+            - ./bin:/home/bin
+            - ./src:/home/src
+            - ./specs:/home/specs
+            - ./vendor:/home/vendor
+        command: /home/bin/speckl
+        working_dir: /home

@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ab051cc6f1547ddc6ee0d949bd6f4f2f",
+    "packages": [
+        {
+            "name": "joeforshaw/speckl",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joeforshaw/speckl.git",
+                "reference": "007d519a660561a58bfa6515d7f2989347489cb5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joeforshaw/speckl/zipball/007d519a660561a58bfa6515d7f2989347489cb5",
+                "reference": "007d519a660561a58bfa6515d7f2989347489cb5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "default-branch": true,
+            "bin": [
+                "bin/speckl"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Speckl\\": "src/Speckl"
+                },
+                "files": [
+                    "src/Functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Joe Forshaw",
+                    "email": "joe@joeforshaw.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/joeforshaw/speckl/issues",
+                "source": "https://github.com/joeforshaw/speckl/tree/main"
+            },
+            "time": "2021-08-05T22:03:28+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "joeforshaw/speckl": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
