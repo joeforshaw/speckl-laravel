@@ -12,9 +12,9 @@ class Block extends TestCase
 {
   use BlockTrait, RefreshDatabase;
 
-  public function __construct($label, $body, $parent, $path)
+  public function __construct($label, $body, $parent, $path, $pending)
   {
-    $this->initialise($label, $body, $parent, $path);
+    $this->initialise($label, $body, $parent, $path, $pending);
 
     if (!$this->parent) {
       $this->app = $this->createApplication();
