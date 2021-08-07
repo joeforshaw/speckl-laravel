@@ -2,6 +2,7 @@
 
 namespace Speckl\Laravel;
 
+use Illuminate\Contracts\Console\Kernel;
 use Speckl\BlockTrait;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\TestCase;
@@ -29,7 +30,7 @@ class Block extends TestCase
 
   public function createApplication()
   {
-      $app = require __DIR__.'/../../../../../bootstrap/app.php';
+      $app = require __DIR__.'/../../../../../../bootstrap/app.php';
       $app->make(Kernel::class)->bootstrap();
       return $app;
   }
