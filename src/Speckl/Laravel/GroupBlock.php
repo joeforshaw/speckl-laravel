@@ -7,14 +7,19 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\TestCase;
 use Mockery;
 use Speckl\BlockTrait;
-use Speckl\ExampleBlockTrait;
+use Speckl\GroupBlockTrait;
+use Speckl\LoadableBlock;
 use Speckl\RunnableBlock;
 
-class ExampleBlock extends TestCase implements RunnableBlock {
-  use BlockTrait, ExampleBlockTrait, RefreshDatabase;
+class GroupBlock extends TestCase implements LoadableBlock, RunnableBlock {
+  use BlockTrait, GroupBlockTrait, RefreshDatabase;
 
   public function __construct($args) {
     $this->initialise($args);
+
+    if ($this->isRootBlock()) {
+      $this->initialiseLaravel();
+    }
   }
 
   public function createApplication() {
