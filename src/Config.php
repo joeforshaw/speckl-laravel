@@ -1,7 +1,6 @@
 <?php
 
-if (!array_key_exists('speckl', $GLOBALS)) {
-    $GLOBALS['speckl'] = [];
-}
+use Speckl\Config;
+use Speckl\Laravel\ExampleBlock;
 
-$GLOBALS['speckl']['blockClass'] = Speckl\Laravel\Block::class;
+Config::set('blockClass', ExampleBlock::class);
