@@ -490,12 +490,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/joeforshaw/speckl.git",
-                "reference": "cf32161aabc625a2fd33b491d717e2788bc1b399"
+                "reference": "b459dd87169d0ba559b1a048e015f33eb9016a42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/joeforshaw/speckl/zipball/cf32161aabc625a2fd33b491d717e2788bc1b399",
-                "reference": "cf32161aabc625a2fd33b491d717e2788bc1b399",
+                "url": "https://api.github.com/repos/joeforshaw/speckl/zipball/b459dd87169d0ba559b1a048e015f33eb9016a42",
+                "reference": "b459dd87169d0ba559b1a048e015f33eb9016a42",
                 "shasum": ""
             },
             "require": {
@@ -525,7 +525,7 @@
                 "issues": "https://github.com/joeforshaw/speckl/issues",
                 "source": "https://github.com/joeforshaw/speckl/tree/main"
             },
-            "time": "2021-08-08T12:36:05+00:00"
+            "time": "2021-08-08T13:56:18+00:00"
         },
         {
             "name": "laravel/framework",
