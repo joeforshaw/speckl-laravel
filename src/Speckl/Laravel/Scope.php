@@ -25,4 +25,10 @@ class Scope extends TestCase {
     $app->make(Kernel::class)->bootstrap();
     return $app;
   }
+
+  public function debug() {
+    $output = $this->debugLabel . ', App: ';
+    $output .= $this->app ? spl_object_id($this->app) : 'null';
+    return $output;
+  }
 }
