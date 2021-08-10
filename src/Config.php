@@ -1,6 +1,6 @@
 <?php
 
-use Speckl\Config;
+use Speckl\Container;
 use Speckl\Laravel\Scope;
 
-Config::set('scopeClass', Scope::class);
+Container::set('scopeClass', Scope::class);
